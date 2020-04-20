@@ -1,23 +1,13 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { withRouter, Route, Switch } from 'react-router-dom'
 import Register from './components/Register'
 import Profile from './components/Profile'
-import Landing from './components/Landing'
+
 import './App.css';
 
 class App extends React.Component {
 
   state = {
-    currentUser: {
-      msg: "user created",
-      user_id: 157,
-      user_name: "Testerrrr",
-      user_phone: "4324324321",
-      user_email: "steve@jobs.com",
-      user_pin: "6239",
-      pairing: true,
-      token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC90YWdzaG9wLmNvIiwiYXVkIjoiXCJUZXN0ZXJycnJcIiIsImV4cCI6IjE1ODczNjE3NjgiLCJ1c2VyX2lkIjoiMTU3IiwidXNlcl9waW4iOiI2MjM5In0.woMUSGXaeiOUUFUewcL4McppPLTOAuBglAHH7h2LDcc"
-    },
     user_name: "",
     user_email: "",
     user_phone: "",

@@ -1,13 +1,11 @@
 import React from 'react'
 import clsx from 'clsx';
 import FormGroup from '@material-ui/core/FormGroup';
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+import { createStyles, makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Switch from '@material-ui/core/Switch';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import AddPhotoAlternateRoundedIcon from '@material-ui/icons/AddPhotoAlternateRounded';
-import MenuSharpIcon from '@material-ui/icons/MenuSharp';
-import MoreVertSharpIcon from '@material-ui/icons/MoreVertSharp';
 import Button from '@material-ui/core/Button';
 import Drawer from '@material-ui/core/Drawer';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
@@ -26,7 +24,6 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
 import MoreIcon from '@material-ui/icons/MoreVert';
 
 export default function Profile(props) {
